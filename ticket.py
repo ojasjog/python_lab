@@ -21,7 +21,7 @@ while seats != 0:
 				print(f"Remaining Seats: {seats}")
 			elif seats == 0:
 				print(f"Remaining Seats: {seats}")
-				print("All seats have been booked. Thank you !")
+				print("All seats have been booked. Thank you!")
 				break
 
 			else:
