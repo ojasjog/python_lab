@@ -7,9 +7,10 @@ def is_prime(w):
             return False
     return True
     
-num = eval(input("Enter your number: "))
-n=len(num)
+num = input("Enter your number: ")
 k=list(num)
+n=len(k)
+
 l=n-1
 d=int("".join(map(str, k)))
 
